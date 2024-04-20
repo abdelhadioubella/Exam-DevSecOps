@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   zap_scan:
-    runs-on: abdelhadioubella/exam
+    runs-on: ubuntu-latest
     name: Scan the webapplication
     steps:     
       - name: ZAP Scan
